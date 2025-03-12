@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color: #717af86c;
+    font-family: 'arial, sansserif';
+}   
+h1{
+    color: #015958;
+    text-shadow: #0136359d 1px 1px 1px;
+}
+
+h1#principal{
+    color: #023535;
+    text-shadow: #0122226c 1px 1px 1px;
+    text-align: center;
+}
+h2{
+    color: #008F8C;
+    text-shadow: #008f8d86 1px 1px 1px;
+}
+.basico{
+    color: #0CABA8;
+    text-shadow: #086463 1px 1px 1px;
+}
+.intermediario{
+    color: #11d4d1;
+    text-shadow: rgb(7, 92, 90) 1px 1px 1px;
+}
+.avancado{
+    color: #b1fcfa;
+    text-shadow: #87c2c0 1px 1px 1px;
+}
