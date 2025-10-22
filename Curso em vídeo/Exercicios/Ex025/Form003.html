@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Teste de Formulário</h1>
+    <h1>Teste de Formulário - Agendar Prova</h1>
     <form action="cadastro.html" method="get">
         <p>
             <label for="inome">Nome:</label>
@@ -17,8 +17,12 @@
             <input type="number" name="media" id="imedia" required placeholder="Entre 0 e 10" autocomplete="cc-number" min="0" max="10" step="0.1">
         </p>
         <p>
-            <label for="idade">Idade:</label>
-            <input type="number" name="idade" id="idade" required placeholder="Digite sua Idade" autocomplete="bday-day" min="0" max="120" step="1">
+            <label for="idata">Data da Prova:</label>
+            <input type="date" name="data" id="idata" required placeholder="Digite a data" autocomplete="bday-day" min="0" max="120" step="1">
+        </p>
+        <p>
+            <label for="ihora">Horário da Prova</label>
+            <input type="time" name="hora" id="ihora" required placeholder="Digite o horário" autocomplete="bday-day" min="0" max="120" step="1">
         </p>
         <p>
             <input type="submit" value="Enviar">
