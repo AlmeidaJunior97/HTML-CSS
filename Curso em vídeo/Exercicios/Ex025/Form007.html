@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.html">
+        <p>
+            <label for="iestado">Digite seu Estado</label>
+            <select name="Estado" id="iestado">
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espírito Santo</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="BA">Bahia</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="CE">Ceará</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </label></optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="profissoes" placeholder="Digite sua profissão">
+            <datalist id="profissoes">
+                <option value="Engenheiro">
+                <option value="Médico">
+                <option value="Professor">
+                <option value="Advogado">
+                <option value="Programador">
+                <option value="Designer">
+            </datalist>
+        </p>
+        <p>
+            <label for="imensagem">Mensagem:</label><br>
+            <textarea name="Mensagem" id="imensagem" cols="30" rows="10" placeholder="Digite sua mensagem"> </textarea>
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>
