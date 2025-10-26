@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* Estilos para impressão */
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+menu ul {
+    list-style-type: none;
+    background-color: white;
+}
+
+article {
+    width: 100%;
+}
+article::after {
+    content: " - Fim do artigo.";
+    font-weight: bold;
+}
